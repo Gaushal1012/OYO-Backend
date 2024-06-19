@@ -21,7 +21,6 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors());
 app.use(morgan("tiny"));
-//app.use("/",Route);
 //app.use(require("./index"));
 
 app.listen(5000,()=>{
