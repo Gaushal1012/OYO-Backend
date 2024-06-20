@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors());
 app.use(morgan("tiny"));
-//app.use(require("./index"));
+app.use(require("./index"));
 
 app.listen(5000,()=>{
     console.log("Application listen on port 5000");
